@@ -1,6 +1,7 @@
 # Reverse Tunnel Wizard
 
-This createTunnelWizard.sh creates a SystemD service to set up an autossh reverse tunnel.
+This createTunnelWizard.sh creates a SystemD service to set up an autossh reverse tunnel. I've used this to good effect on Ubuntu and Debian flavored linux computers including Raspberry Pi, milage may vary.
+
 This is useful for a REMOTE system (under your authorization and your control) that is behind a firewall, etc., 
 which you can SSH to an external INTERMEDIATE location.
 
