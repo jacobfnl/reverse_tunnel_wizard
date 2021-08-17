@@ -7,7 +7,7 @@ if [ "$(whoami)" != 'root' ]; then
 fi
 
 apt update
-apt install autossh -y
+apt install openssh-client autossh -y
 
 echo -n "
 
